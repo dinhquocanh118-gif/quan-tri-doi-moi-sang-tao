@@ -3,14 +3,14 @@
    Mỗi chương: n, vi, en, intro, goals[], sections[{t, k[], p[]}], takeaways[], glossary[[en, vi, định nghĩa]]
    - sections[].k là các từ khóa hiển thị trên sơ đồ tư duy (mindmap). */
 window.PARTS = [
-  { id: 1, name: "Nền tảng quản trị đổi mới", short: "Nền tảng", range: [1, 5], desc: "Đổi mới là gì, diễn ra trong bối cảnh nào và doanh nghiệp tổ chức ra sao để đổi mới." },
-  { id: 2, name: "Biến công nghệ thành kinh doanh", short: "Công nghệ → Kinh doanh", range: [6, 11], desc: "Bảo vệ, tích lũy, hợp tác và thương mại hóa công nghệ." },
-  { id: 3, name: "Phát triển sản phẩm mới", short: "Sản phẩm mới", range: [12, 15], desc: "Đưa ý tưởng thành sản phẩm được thị trường chấp nhận." }
+  { id: 1, name: "Quản trị đổi mới", short: "Nền tảng", range: [1, 5], desc: "Đổi mới là gì, diễn ra trong bối cảnh nào và doanh nghiệp tổ chức ra sao để đổi mới." },
+  { id: 2, name: "Biến công nghệ thành kinh doanh", short: "Công nghệ → Kinh doanh", range: [6, 10], desc: "Bảo vệ, tích lũy, hợp tác và thương mại hóa công nghệ." },
+  { id: 3, name: "Phát triển sản phẩm mới", short: "Sản phẩm mới", range: [11, 15], desc: "Đưa ý tưởng thành sản phẩm được thị trường chấp nhận." }
 ];
 
 window.CHAPTERS = [
 {
-  n: 1, vi: "Quản lý đổi mới: Giới thiệu", en: "Innovation management: an introduction",
+  n: 1, vi: "Quản trị đổi mới: Giới thiệu", en: "Innovation management: an introduction",
   intro: "Chương mở đầu giải thích vì sao đổi mới là điều kiện sống còn của doanh nghiệp, làm rõ các khái niệm nền tảng và giới thiệu các mô hình mô tả quá trình đổi mới.",
   goals: ["Hiểu vì sao đổi mới quan trọng với doanh nghiệp và nền kinh tế", "Phân biệt phát minh, đổi mới, khoa học và công nghệ", "Nhận diện các loại hình đổi mới và các thế hệ mô hình đổi mới", "Nhìn đổi mới như một quy trình quản trị chứ không phải một sự kiện"],
   sections: [
@@ -34,7 +34,7 @@ window.CHAPTERS = [
   ]
 },
 {
-  n: 2, vi: "Hệ thống đổi mới quốc gia và khởi nghiệp", en: "National systems of innovation and entrepreneurship",
+  n: 2, vi: "Hệ thống đổi mới và Khởi nghiệp quốc gia", en: "National systems of innovation and entrepreneurship",
   intro: "Chương đặt doanh nghiệp vào bối cảnh vĩ mô: nhà nước, thể chế và tinh thần khởi nghiệp cùng tạo nên năng lực đổi mới của một quốc gia.",
   goals: ["Giải thích các làn sóng tăng trưởng và vai trò của công nghệ", "Hiểu vai trò của nhà nước trong xây dựng năng lực công nghệ", "Nắm khái niệm khởi nghiệp theo Schumpeter và Stevenson", "Phân biệt chính sách đổi mới và chính sách khởi nghiệp"],
   sections: [
@@ -56,7 +56,7 @@ window.CHAPTERS = [
   ]
 },
 {
-  n: 3, vi: "Đổi mới khu vực công", en: "Public sector innovation",
+  n: 3, vi: "Đổi mới trong khu vực công", en: "Public sector innovation",
   intro: "Khu vực công chiếm tỷ trọng lớn trong nền kinh tế và cũng cần đổi mới. Chương phân tích vai trò của chính phủ, đặc thù và các mô hình đổi mới trong khu vực công.",
   goals: ["Nêu bốn vai trò của chính phủ đối với đổi mới", "So sánh đổi mới ở khu vực công và khu vực tư", "Nhận diện các loại hình đổi mới khu vực công", "Hiểu khái niệm giá trị công và tam giác chiến lược của Moore"],
   sections: [
@@ -78,7 +78,7 @@ window.CHAPTERS = [
   ]
 },
 {
-  n: 4, vi: "Quản lý đổi mới trong doanh nghiệp", en: "Managing innovation within firms",
+  n: 4, vi: "Quản trị đổi mới trong các doanh nghiệp", en: "Managing innovation within firms",
   intro: "Chương mở chiếc hộp đen bên trong doanh nghiệp: cấu trúc tổ chức, cách quản lý sự bất định, vai trò cá nhân và công cụ giúp duy trì năng lực đổi mới.",
   goals: ["Giải thích thế lưỡng nan giữa hiệu quả và sáng tạo", "Dùng bản đồ bất định của Pearson và ma trận Henderson – Clark", "Nhận diện đặc điểm tổ chức và vai trò cá nhân thúc đẩy đổi mới", "Đánh giá tác động hai mặt của hệ thống ERP"],
   sections: [
@@ -124,7 +124,7 @@ window.CHAPTERS = [
   ]
 },
 {
-  n: 6, vi: "Quản lý quyền sở hữu trí tuệ", en: "Managing intellectual property",
+  n: 6, vi: "Quản trị quyền sở hữu trí tuệ", en: "Managing intellectual property",
   intro: "Thành quả sáng tạo cần được bảo vệ để mang lại lợi ích kinh tế. Chương giới thiệu các công cụ bảo hộ và cách dùng chúng trong chiến lược đổi mới.",
   goals: ["Phân biệt các hình thức bảo hộ sở hữu trí tuệ", "Nêu điều kiện cấp bằng sáng chế", "Đánh giá mặt lợi và mặt hại của hệ thống bằng sáng chế", "Biết các giải pháp thay thế bằng sáng chế"],
   sections: [
@@ -147,7 +147,7 @@ window.CHAPTERS = [
   ]
 },
 {
-  n: 7, vi: "Năng lực và đổi mới", en: "Competencies and innovation",
+  n: 7, vi: "Quản trị kiến thức tổ chức", en: "Managing organisational knowledge",
   intro: "Vì sao có doanh nghiệp đổi mới bền bỉ còn doanh nghiệp khác thì không? Chương trả lời bằng góc nhìn nguồn lực, tri thức tổ chức và chiến lược đổi mới.",
   goals: ["Hiểu khái niệm quỹ đạo công nghệ", "Nắm quan điểm dựa trên nguồn lực và năng lực cốt lõi", "Giải thích nền tảng tri thức và học tập của tổ chức", "Phân loại các chiến lược đổi mới"],
   sections: [
@@ -170,7 +170,7 @@ window.CHAPTERS = [
   ]
 },
 {
-  n: 8, vi: "Liên minh chiến lược và mạng lưới", en: "Strategic alliances and networks",
+  n: 8, vi: "Liên minh và mạng lưới chiến lược", en: "Strategic alliances and networks",
   intro: "Chi phí R&D tăng và vòng đời sản phẩm ngắn lại khiến doanh nghiệp khó tự làm tất cả. Chương bàn về các hình thức hợp tác, rủi ro và vai trò của niềm tin.",
   goals: ["Định nghĩa liên minh chiến lược và lý do hình thành", "Nhận diện các hình thức liên minh", "Hiểu rủi ro và cách quản trị liên minh", "Giải thích vai trò của niềm tin qua lý thuyết trò chơi"],
   sections: [
@@ -193,7 +193,7 @@ window.CHAPTERS = [
   ]
 },
 {
-  n: 9, vi: "Quản lý nghiên cứu và phát triển (R&D)", en: "Management of research and development",
+  n: 9, vi: "Nghiên cứu và phát triển", en: "Management of research and development",
   intro: "R&D là khoản đầu tư lớn và cần được quản lý như mọi khoản đầu tư khác. Chương trình bày bản chất, phân loại, chiến lược, ngân sách và cách đánh giá dự án R&D.",
   goals: ["Hiểu R&D gồm những hoạt động nào", "Gắn R&D với chiến lược kinh doanh", "Biết các cách xác định ngân sách R&D", "Nắm các tiêu chí đánh giá dự án R&D"],
   sections: [
@@ -259,7 +259,7 @@ window.CHAPTERS = [
   ]
 },
 {
-  n: 12, vi: "Chấp nhận thị trường và khuếch tán công nghệ", en: "Market adoption and technology diffusion",
+  n: 12, vi: "Sự tiếp nhận thị trường và sự lan tỏa công nghệ", en: "Market adoption and technology diffusion",
   intro: "Một đổi mới chỉ thành công khi được thị trường chấp nhận. Chương xem xét nguồn ý tưởng từ người dùng và các lý thuyết về sự lan tỏa của đổi mới.",
   goals: ["Phân biệt chấp nhận và khuếch tán", "Hiểu vai trò của người dùng dẫn đầu và cộng đồng", "Nắm lý thuyết khuếch tán và năm nhóm người chấp nhận", "Giải thích mô hình Bass"],
   sections: [
@@ -304,7 +304,7 @@ window.CHAPTERS = [
   ]
 },
 {
-  n: 14, vi: "Nghiên cứu thị trường và ảnh hưởng tới NPD", en: "Market research and its influence on new product development",
+  n: 14, vi: "Nghiên cứu thị trường và ảnh hưởng của nó đến việc phát triển sản phẩm mới", en: "Market research and its influence on new product development",
   intro: "Nghiên cứu thị trường giúp giảm rủi ro nhưng cũng có thể giết chết ý tưởng đột phá. Chương bàn về khi nào nên lắng nghe khách hàng và khi nào không.",
   goals: ["Hiểu vai trò của nghiên cứu thị trường trong NPD", "Biết các kỹ thuật kiểm tra sản phẩm", "Giải thích vì sao nghiên cứu thị trường có thể cản trở đổi mới gián đoạn", "Cân bằng công nghệ đẩy và thị trường kéo"],
   sections: [
@@ -326,7 +326,7 @@ window.CHAPTERS = [
   ]
 },
 {
-  n: 15, vi: "Quản lý quá trình phát triển sản phẩm mới", en: "Managing the new product development process",
+  n: 15, vi: "Quản trị quy trình phát triển sản phẩm mới", en: "Managing the new product development process",
   intro: "Chương cuối đi vào thực hành: các hoạt động cần quản lý từ ý tưởng đến thương mại hóa, cách tổ chức đội dự án và lý do phần lớn ý tưởng không tới được thị trường.",
   goals: ["Xem sản phẩm mới như các dự án", "Nắm các hoạt động chính của NPD", "So sánh các cấu trúc tổ chức cho NPD", "Hiểu giao diện marketing – R&D"],
   sections: [
@@ -349,3 +349,4 @@ window.CHAPTERS = [
   ]
 }
 ];
+
